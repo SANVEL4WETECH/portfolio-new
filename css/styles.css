@@ -1,0 +1,321 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  background-color: black;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.525rem;
+  margin-top: 10px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #CCD6A6;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #808080;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
+
+li {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.newlogo {
+  width: 55px;
+  position: fixed;
+  left: 93%;
+  top: 85%;
+
+}
+
+.top-container {
+  text-align: center;
+  padding: 19% 19% 19% 12%;
+  background-image: url(../images/bgimg.jpg);
+  background-size: cover;
+  background-size: 100%;
+}
+
+.myname {
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px black;
+}
+
+.myaim {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px black;
+}
+
+.about-me {
+  padding: 2rem 5rem 4rem 5rem;
+  max-width: 100%;
+  margin-left: 6%;
+}
+
+.man-img {
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.about-h2 {
+  margin-top: 70px;
+}
+
+.type-writing {
+  color: #11999E;
+}
+
+.type-writing:hover {
+  color: red;
+}
+
+.skill-topic {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.skill-row {
+  border-radius: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9rem;
+  ;
+  text-align: center;
+  background-color: #16213E;
+}
+
+.skill-row:hover {
+  box-shadow: 3px 6px 7px 7px #A5F1E9;
+}
+
+.topics {
+  margin-top: 10px;
+}
+
+.udemy-logo {
+  width: 67%;
+}
+
+.certificate {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.certificate-content {
+  max-width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #12141c;
+  padding: 3rem;
+  border-radius: 27px;
+}
+
+.certificate-content:hover {
+  border-top: 8px solid #CCD6A6;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.bootcamp {
+  color: white;
+}
+
+.project-section {
+  margin-bottom: 85px;
+}
+
+.project-header {
+  text-align: center;
+}
+
+.project-heading {
+  color: #66BFBF;
+  font-size: 2rem;
+}
+
+.project {
+  background-color: #12141c;
+  border-radius: 30px;
+  padding: 2rem;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.project:hover {
+  border-top: 8px solid #CCD6A6;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.project:hover .project-heading {
+  color: #CCD6A6;
+}
+
+.arrange {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.motivation-header {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.never-logo {
+  width: 50%;
+  border-radius: 60px;
+  padding: 3rem;
+}
+
+.quote {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 4rem;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-form {
+  border-radius: 15px;
+  padding: 1.3rem;
+  max-width: 600px;
+  margin: 20px auto 60px auto;
+  background-image: -webkit-linear-gradient(65deg, #12141c 50%, #2C3333 50%);
+}
+
+input {
+  border-radius: 16px;
+  color: black;
+  background-color: #CCD6A6;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  margin: 0 0.5rem 0.8rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+textarea {
+  border-radius: 16px;
+  color: black;
+  background-color: #CCD6A6;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  margin: 0 0.5rem 0.8rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  background-color: #12141c;
+  padding: 7rem 2rem 0 2rem;
+}
+
+.social-media i {
+  height: 40px;
+  width: 40px;
+}
+
+.footer-details {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer-details:hover {
+  color: yellow;
+}
+
+.footer-flex {
+  display: flex;
+  max-width: 600px;
+  margin: 60px auto 10px auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.copy-right {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC2AD);
+  text-decoration: none;
+}
